@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up/Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+          <header>Login</header>
+          <form action="#">
+            <input type="text" id="loginEmail" placeholder="Enter your email" required>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+            <!-- <a href="#">Forgot password?</a> -->
+            <button type="button" id="userLogin" class="button">Login</button>
+          </form>
+          <div class="signup">
+            <span class="signup">Don't have an account?
+             <label for="check">Signup</label>
+            </span>
+          </div>
+        </div>
+        <div class="registration form">
+          <header>Signup</header>
+          <form action="#">
+            <input type="text" id="userName" placeholder="Enter your name" required>
+            <input type="text" id="userEmail" placeholder="Enter your email" required>
+            <input type="password" id="userPass" placeholder="Create a password" required>
+             <button type="button" id="register" class="button" value="Signup">Sign Up</button>
+          </form>
+          <div class="signup">
+            <span class="signup">Already have an account?
+             <label for="check">Login</label>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+
+</body>
+</html>
