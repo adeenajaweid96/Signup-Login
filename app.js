@@ -44,7 +44,7 @@ registerBtn &&
 
     console.log(userData);
     localStorage.setItem("users", JSON.stringify(userData));
-    // var getData = JSON.parse(localStorage.getItem("users"));
+    var getData = JSON.parse(localStorage.getItem("users"));
     getData.push(obj);
   });
 
