@@ -79,10 +79,25 @@ body{
   cursor: pointer;
   transition: 0.4s;
 }
-/* input.button */
 .form button:hover{
   background: #006653;
 }
+
+@media (max-width: 600px) {
+  .form button {
+    font-size: 1rem; 
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .form button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+
+
 .signup{
   font-size: 17px;
   text-align: center;
